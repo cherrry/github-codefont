@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Code Font",
+  "description": "Display code in GitHub using my favourite font!",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://*.github.com/*"
+      ],
+      "css": ["style.css"]
+    }
+  ]
+}
